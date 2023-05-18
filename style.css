@@ -62,7 +62,10 @@ html,body{
     color: white;
     transition: all 0.3s ease-in-out;
 }
-.link:hover:active{
+.link:hover{
+    color:#2B61D1 ;
+}
+.link:active{
     color:#2B61D1 ;
 }
 .header_button{
@@ -76,10 +79,13 @@ html,body{
     font-size: 24px;
     line-height: 29px;
 }
-.header_button:hover:active{
+.header_button:hover{
     background-color:transparent;
     border: 1px solid #2B61D1;
-
+}
+.header_button:active{
+    background-color:transparent;
+    border: 1px solid #2B61D1;
 }
 .panel_card{
     position: relative;
@@ -122,7 +128,10 @@ html,body{
     margin-top: 50px;
     transition: all 0.3s ease-in-out;
 }
-.panel_btn:hover:active{
+.panel_btn:hover{
+    background-color:#2B61D1;
+}
+.panel_btn:active{
     background-color:#2B61D1;
 }
 .text{
@@ -194,7 +203,10 @@ html,body{
     gap: 150px;
     padding: 50px 0 150px 0px;
 }
-.panel_blocks:hover:active{
+.panel_blocks:hover{
+    background-color: #d9d9d9;
+}
+.panel_blocks:active{
     background-color: #d9d9d9;
 }
 
