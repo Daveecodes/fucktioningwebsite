@@ -62,7 +62,7 @@ html,body{
     color: white;
     transition: all 0.3s ease-in-out;
 }
-.link:hover{
+.link:hover:active{
     color:#2B61D1 ;
 }
 .header_button{
@@ -76,7 +76,7 @@ html,body{
     font-size: 24px;
     line-height: 29px;
 }
-.header_button:hover{
+.header_button:hover:active{
     background-color:transparent;
     border: 1px solid #2B61D1;
 
@@ -122,9 +122,8 @@ html,body{
     margin-top: 50px;
     transition: all 0.3s ease-in-out;
 }
-.panel_btn:hover{
+.panel_btn:hover:active{
     background-color:#2B61D1;
-    
 }
 .text{
     text-align: center;
@@ -195,7 +194,7 @@ html,body{
     gap: 150px;
     padding: 50px 0 150px 0px;
 }
-.panel_blocks:hover{
+.panel_blocks:hover:active{
     background-color: #d9d9d9;
 }
 
